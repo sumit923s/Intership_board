@@ -1,0 +1,129 @@
+
+.diffSection{
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.diffSection p{
+    display: block;
+    z-index: 10;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.csec {
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background-attachment: fixed; 
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	top: 200px;
+	content: '';
+	transform-origin: top right;
+	transform: skewY(-10deg);
+	z-index: -1;
+}
+.back-contact {
+	margin-top: 0px;
+	transform: translateY(-50px);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.cc {
+	height: 400px;
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	justify-content: center;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
+	background: #fff;
+}
+.cc form {
+	margin: 5%;
+	margin-top: 40px;
+	width: 90%;
+	height: 90%;
+}
+
+.cc form label {
+	position: absolute;
+	color: #2E3D49;
+	font-size: 15px;
+	font-weight: 120;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cc form input {
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px lightgray;
+	border: 1px solid rgba(0,0,0,0.2);
+	outline: none;
+	color: #2E3D49;
+	font-weight: 600;
+}
+.imp {
+	color: red;
+}
+form textarea {
+	width: 100%;
+	height: 100px;
+	box-shadow: inset 0 0 5px lightgray;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	outline: none;
+	color: #2E3D49;
+	font-weight: 600;
+	padding: 15px;
+}
+
+#csubmit {
+	margin-top: 20px; 
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	border-radius: 5px;
+	border-style: none;
+	outline: none;
+	width: 100%;
+	padding: 15px 25px;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.csubmit{
+    padding: 5px auto;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: linear-gradient(to right, #FA4B37, #DF2771);
+    border: none;
+    font-weight: 500;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;	
+    position: relative;
+    right: 20px;
+}
+.lastNameLabel{
+    position: relative;
+    left: 205px;
+    top: 19px;
+}
+.FirstNameLabel{
+    position: relative;
+    top: 19px;
+}
+ 
+.contactTitle{
+    position: relative;
+    top: -60px;
+    font-size: 3rem;
+}
+
+.diffSection p{
+    font-size: 3rem;
+}

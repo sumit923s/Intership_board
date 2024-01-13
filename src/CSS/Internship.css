@@ -1,0 +1,95 @@
+.internship{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: rgb(218, 216, 216); */
+    background-color: rgb(232, 226, 226);
+ 
+}
+
+.internship-child{
+    width: 400px;
+    height: 400px;
+    margin: 8px;
+    position: relative;
+    background-color: #edecea; 
+    border-radius: 11px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.4)
+     ;
+     margin: 20px auto;
+    
+  
+
+}
+
+.internship button{
+    background: #ff7700;
+    background-image: -webkit-linear-gradient(top, #ff7700, #ff0000);
+    background-image: -moz-linear-gradient(top, #ff7700, #ff0000);
+    background-image: -ms-linear-gradient(top, #ff7700, #ff0000);
+    background-image: -o-linear-gradient(top, #ff7700, #ff0000);
+    background-image: linear-gradient(to bottom, #ff7700, #dd2020);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    box-shadow: 1px 1px 20px, #ff7700, #f90303  ;
+    border: none;
+}
+
+.btn-know-more:hover{
+    
+    background: #d96703;
+    background-image: -webkit-linear-gradient(top, #d96703, #d60404);
+    background-image: -moz-linear-gradient(top, #d96703, #d60404);
+    background-image: -ms-linear-gradient(top, #d96703, #d60404);
+    background-image: -o-linear-gradient(top, #d96703, #d60404);
+    background-image: linear-gradient(to bottom, #d96703, #d60404);
+    text-decoration: none;
+}
+
+.img{
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    height: 60%;
+    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    left: 2.6px;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
+}
+
+.div{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 322px;
+    left: 3px;
+    
+}
+
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 244px;
+    left: 3px;
+    font-size: 2rem;
+}
+
+.para{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 285px;
+    left: 3px;
+}
+

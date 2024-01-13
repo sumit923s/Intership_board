@@ -1,0 +1,20 @@
+.marquee-container {
+    background: linear-gradient(to right, #FA4B37, #DF2771);
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    animation: marqueeAnimation 20s linear infinite;
+  }
+  
+  @keyframes marqueeAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
