@@ -14,7 +14,8 @@ export const Home = () => {
           <img className="bcc-img" src={intern_img} alt="" />
           <div className= "home-text">
           <h1>Welcome to Internworld</h1>
-          <p className='home-para'>Internship transforms novices into skilled professionals, unlocking career milestones triumphantly.</p>
+          {/* <div> 
+          <p className='home-para'>Internship transforms novices into skilled professionals, unlocking career milestones triumphantly.</p></div> */}
           <div className='search-parent'>
           <input
                 type="text"
