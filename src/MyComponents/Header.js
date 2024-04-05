@@ -27,7 +27,7 @@ export default function Header(props) {
         <li><Link className="nav-link" to="/services">Services</Link></li>
         <li><Link className="nav-link" to="/team">Team</Link></li>
         <li><Link className="nav-link" to="/login-signup">Login/SignUp</Link></li>
-
+        <li><input className='nav-input' type='search' placeholder='search'></input></li>
         <li><button className="join-btn">Join Us</button></li>
       </ul>
     </nav>
