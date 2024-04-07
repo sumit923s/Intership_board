@@ -12,7 +12,7 @@ export default function Review() {
       </div>
       <div className="review">
         <div className="diffSection" id="review_section">
-          <p className="review-heading">What the Students Say About Us?</p>
+          <p className="review-heading text-center">What the Students Say About Us?</p>
         </div>
         <div className="rev-container">
           <div className="rev-card">

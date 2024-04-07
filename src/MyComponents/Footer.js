@@ -16,7 +16,7 @@ export const Footer = () => {
       <div className="footer-container">
         <div className="left-col">
           <div className="logo"></div>
-          <div className="social-media">
+          <div className="social-media flex ">
             <a href="#"><img src={fb} alt="Facebook" /></a>
             <a href="#"><img src= {insta} alt="Instagram" /></a>
             <a href="#"><img src={tt} alt="Twitter" /></a>

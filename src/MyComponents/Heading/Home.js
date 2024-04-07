@@ -10,9 +10,9 @@ export const Home = () => {
   return (
     <div className='home'>
                  
-      <div className='home-child'>
+      <div className='home-child relative'>
           <img className="bcc-img" src={intern_img} alt="" />
-          <div className= "home-text">
+          <div className= "home-text absolute top-[30vw]">
           <h1 className='text'>Welcome to Internworld</h1>
           </div>
         </div>
